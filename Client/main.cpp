@@ -5,11 +5,11 @@ int main() {
     try {
         ClientController controller;
         if (controller.start()) {
-            std::cout << "Client process completed successfully!\n" << std::endl;
+            std::cout << "Client process completed successfully!" << std::endl;
             return 0;
         }
         else {
-            std::cerr << "Client process failed.\n" << std::endl;
+            std::cerr << "Client process failed." << std::endl;
             return 1;
         }
     }
